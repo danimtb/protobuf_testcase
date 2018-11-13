@@ -8,7 +8,7 @@ class Protobuf(ConanFile):
     default_options = {"lite": False}
 
     def package_info(self):
-        if self.options.lite == "lite":
+        if self.options.lite:
             self.cpp_info.libs = ["libprotobuf-lite"]
         else:
             self.cpp_info.libs = ["libprotobuf", "libprotoc"]
