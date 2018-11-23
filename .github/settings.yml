@@ -9,10 +9,10 @@ repository:
 
 # Labels: define labels for Issues and Pull Requests
 labels:
-  - name: bug
-    color: CC0000
+  - name: "type: bug"
+    color: FD0000
   - name: featuresss
-    description: my cool description
+    description: my cool description  # Still not supported: https://github.com/probot/settings/pull/103
     color: 336699
   - name: first-timers-only
     # include the old name to rename and existing label
