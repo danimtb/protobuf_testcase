@@ -1,7 +1,7 @@
 # https://github.com/apps/settings
 
 repository:
-  homepage: https://conan.io/
+  homepage: https://conan.io
   has_issues: true
   has_wiki: false
   has_downloads: true
@@ -55,7 +55,7 @@ labels:
   - name: "component: build"
     color: 7D3C98
     old_name: "component: Build"
-    description: Build helpers, build systems...  # Still not supported: https://github.com/probot/settings/pull/103
+    description: Build helpers, build systems...
   - name: "component: scm"
     color: 6C3483
   - name: "component: UX"
@@ -81,7 +81,7 @@ labels:
   - name: "feature approved"
     color: 1D8348
   - name: "whiteboard"
-    color: #FDFEFE
+    color: FDFEFE
     description: Needs discussion
 
   - name: "duplicate"
