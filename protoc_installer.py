@@ -6,6 +6,7 @@ class Protoc(ConanFile):
     name = "protoc_installer"
     version = "1.0"
     build_requires = "protobuf/1.0@conan/stable"
+    default_options = {"protobuf:lite": True}
 
     def package_info(self):
             self.env_info.path.append(os.path.join(self.package_folder, "protoc_folder"))

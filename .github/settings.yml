@@ -1,0 +1,20 @@
+# https://github.com/apps/settings
+
+repository:
+  homepage: https://conan.io/
+  has_issues: true
+  has_wiki: false
+  has_downloads: true
+  default_branch: develop
+
+# Labels: define labels for Issues and Pull Requests
+labels:
+  - name: bug
+    color: CC0000
+  - name: feature
+    color: 336699
+  - name: first-timers-only
+    # include the old name to rename and existing label
+    oldname: Help Wanted
+  - name: kk
+    color: 445334
